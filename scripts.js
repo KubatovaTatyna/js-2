@@ -16,11 +16,13 @@ subject = "Weight";
 subject = "Temperature";
 unit = "degrees"; 
 
-let title = "Pride & Prejudice"
-let author = "Jane Austen!"
+let title = "Pride & Prejudice";
+let author = "Jane Austen!";
 
-title = "The Ship of Brides"
-author = "Jojo Moyes"
+title = "The Ship of Brides";
+author = "Jojo Moyes";
+
+let artist = "Selena Gomez";
 
 console.log(fifth);
 console.log( capital + " is the capital of " + country);
@@ -29,4 +31,5 @@ console.log("My fovourite book is " + title + " by " + author)
 console.log("My favourite song is \"Yesterday\" by Beatles")
 console.log("My favourite song is 'Yesterday' by Beatles")
 console.log('I\'m the best')
-console.log("I'm the fan of 'Beatles'!")
+console.log("I'm the fan of \""+ artist + "\"!")
+console.log(`I'm the fan of "`+ artist +`"!`)
