@@ -53,11 +53,18 @@ let movie = "Money Hest";
 // console.log(`C multiplied by D is equal to ${e}`)
 
 
-let firstPoint = +prompt("What is first point?");
-let secondPoint = +prompt("What is second point");
-let distance = secondPoint - firstPoint;
+// let firstPoint = +prompt("What is first point?");
+// let secondPoint = +prompt("What is second point");
+// let distance = secondPoint - firstPoint;
 
-console.log(`The distance between two points is ${distance} meters`)
+// console.log(`The distance between two points is ${distance} meters`)
+
+let width = +prompt("Write material width");
+let height = +prompt("Write material height");
+let perimeter = (width + height) * 2
+
+
+console.log(`The perimeter of this material is ${perimeter} meters`)
 
 
 
