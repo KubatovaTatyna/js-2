@@ -59,12 +59,19 @@ let movie = "Money Hest";
 
 // console.log(`The distance between two points is ${distance} meters`)
 
-let width = +prompt("Write material width");
-let height = +prompt("Write material height");
-let perimeter = (width + height) * 2
+// let width = +prompt("Write material width");
+// let height = +prompt("Write material height");
+// let perimeter = (width + height) * 2;
+
+// console.log(`The perimeter of this material is ${perimeter} meters`);
+
+let weight = +prompt("Enter body weight");
+let height = +prompt("Enter the height at which the body is");
+let g = 9.8;
+let potencialEnergy = weight * height * g;
 
 
-console.log(`The perimeter of this material is ${perimeter} meters`)
+console.log(`Potential energy of interacting bodies is ${potencialEnergy} joule`);
 
 
 
