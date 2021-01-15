@@ -47,10 +47,17 @@ let movie = "Money Hest";
 
 // console.log(`The sum of two numbrs is equal to ${sum}`);
 
-let c = +prompt("What is C?")
-let d = +prompt("What is D?")
-let e = c * d;
-console.log(`C multiplied by D is equal to ${e}`)
+// let c = +prompt("What is C?")
+// let d = +prompt("What is D?")
+// let e = c * d;
+// console.log(`C multiplied by D is equal to ${e}`)
+
+
+let firstPoint = +prompt("What is first point?");
+let secondPoint = +prompt("What is second point");
+let distance = secondPoint - firstPoint;
+
+console.log(`The distance between two points is ${distance} meters`)
 
 
 
