@@ -77,7 +77,7 @@ let movie = "Money Hest";
 
 let mass = +prompt("What is your mass(in kilograms)?")
 let height = +prompt("What is your height (in meters)?")
-let bodyMassIndex = mass / (height * height)
+let bodyMassIndex = mass / (height ^ 2)
 
 console.log(` Your body mass index is ${bodyMassIndex} `)
 
