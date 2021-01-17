@@ -65,13 +65,22 @@ let movie = "Money Hest";
 
 // console.log(`The perimeter of this material is ${perimeter} meters`);
 
-let weight = +prompt("Enter body weight");
-let height = +prompt("Enter the height at which the body is");
-let g = 9.8;
-let potencialEnergy = weight * height * g;
+// let weight = +prompt("Enter body weight");
+// let height = +prompt("Enter the height at which the body is");
+// let g = 9.8;
+// let potencialEnergy = weight * height * g;
 
 
-console.log(`Potential energy of interacting bodies is ${potencialEnergy} joule`);
+// console.log(`Potential energy of interacting bodies is ${potencialEnergy} joule`);
+
+
+
+let mass = +prompt("What is your mass(in kilograms)?")
+let height = +prompt("What is your height (in meters)?")
+let bodyMassIndex = mass / (height * height)
+
+console.log(` Your body mass index is ${bodyMassIndex} `)
+
 
 
 
